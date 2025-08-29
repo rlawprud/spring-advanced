@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sparta_tests_db
+    username: root
+    password: 86889825
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+jwt:
+  secret:
+    key: 1CE7FBA6FA546D2B614D7C62E4F9
+
+debug: true
