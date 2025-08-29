@@ -12,6 +12,9 @@ import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.method.support.ModelAndViewContainer;
 
+// HandlerMethodArgumentResolver는 Spring 에서 정의된 인터페이스로,
+// 컨트롤러 메서드에서 사용할 파라미터에 값을 할당하는 역할을 합니다.
+
 public class AuthUserArgumentResolver implements HandlerMethodArgumentResolver {
 
     @Override
