@@ -14,5 +14,3 @@ spring:
 jwt:
   secret:
     key: 1CE7FBA6FA546D2B614D7C62E4F9
-
-debug: true
